@@ -687,3 +687,6 @@ h3 {
     animation-duration: 0.01ms !important;
   }
 }
+
+/* Match the browser's bottom overscroll area to the final footer section. */
+html { background-color: #0b0d0e; }
