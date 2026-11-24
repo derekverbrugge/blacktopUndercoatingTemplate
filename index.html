@@ -184,14 +184,14 @@
             </p>
           </article>
 
-          <article class="approach-card">
+          <article class="approach-card" hidden>
             <h3>Ongoing Maintenance</h3>
             <p>
               Periodic inspection and reapplication, when
               recommended for the chosen product, help
               maintain coverage over time.
             </p>
-          </article>
+          </article><button type="button" id="more-cards" aria-expanded="false" class="button" style="grid-column:1/-1;justify-self:center">More</button>
 
         </div>
 
@@ -300,5 +300,5 @@
   </main>
 
   <div id="site-footer"></div>
-</body>
+<script>document.getElementById('more-cards').addEventListener('click',e=>{const b=e.currentTarget,open=b.getAttribute('aria-expanded')!=='true';document.querySelectorAll('.approach-card').forEach((c,i)=>c.hidden=i>=3&&!open);b.setAttribute('aria-expanded',String(open));b.textContent=open?'Show less':'More'});</script></body>
 </html>
