@@ -694,3 +694,6 @@ html { background-color: #0b0d0e; }
 /* Full-width centered footer attribution on mobile and desktop. */
 .site-footer > p.template-credit { display:block !important; position:relative; left:auto; right:auto; width:100% !important; max-width:none !important; margin:0.75rem 0 0 !important; padding:0 16px 56px !important; box-sizing:border-box; text-align:center !important; }
 .site-footer > p.template-credit > a { display:inline !important; text-decoration:none !important; }
+
+/* Website standards */
+a,a:visited,a:hover,a:active,a:focus{text-decoration:none!important}body{min-height:100vh;display:flex;flex-direction:column}main{flex:1}#site-footer{margin-top:auto}.template-credit{font-size:.75rem;text-align:center}.footer-links,.footer-navigation{flex-wrap:wrap} [hidden]{display:none!important}
